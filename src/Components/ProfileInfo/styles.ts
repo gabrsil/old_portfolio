@@ -63,6 +63,7 @@ p.prof-description {
     color: #828282;
     font-size: 1.1rem;
     margin: 20px 0 10px;
+    line-height: 25px;
 }
 
 @media(max-width: 1180px) {
