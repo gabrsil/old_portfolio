@@ -67,6 +67,7 @@ export const Info = styled.section`
         font-weight: 400;
         color: #828282;
         font-size: 1.1rem;
+        line-height: 22px;
 
     }
 
