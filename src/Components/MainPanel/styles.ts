@@ -2,7 +2,6 @@ import styled from "styled-components";
 
 
 export const Container = styled.div`
-    
 
     width: calc(100% - 380px - 60px);
     padding: 20px 0;
@@ -43,7 +42,6 @@ justify-content: center;
 `
 
 export const SkillsCard = styled.section`
-
  width: 50%;
 
  max-width: 350px;
