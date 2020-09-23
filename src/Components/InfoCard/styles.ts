@@ -7,8 +7,6 @@ padding: 10px;
 box-shadow: 1px 3px 10px 0px rgba(0, 0, 0, 0.2);
 border-radius: 8px;
 
-@media (max-width: 400px){
-    padding: 5px;
-}
+
 
 `
