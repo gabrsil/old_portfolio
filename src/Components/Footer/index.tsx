@@ -1,10 +1,20 @@
 
 import React from 'react';
 
-// import { Container } from './styles';
+import { Container } from './styles';
 
 const Footer: React.FC = () => {
-  return <h1>lAl</h1>;
+  return (
+    <Container>
+      <div>
+
+        
+       <span>® 2020 - Gabriel</span>
+
+        
+      </div>
+    </Container>
+  );
 }
 
 export default Footer;
