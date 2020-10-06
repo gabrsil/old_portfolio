@@ -4,7 +4,6 @@ import InfoCard from '../InfoCard'
 import ProjectsInfo from '../ProjectsInfo'
 // import 'antd/dist/antd.css';
 
-
 import { Progress } from 'antd';
 
 const MainPanel: React.FC = () => {
@@ -26,7 +25,7 @@ const MainPanel: React.FC = () => {
                       <li>Typescript <Progress percent={60} showInfo={false} /></li>
                       <li>Redux <Progress percent={60} showInfo={false} /></li>
                       <li>Styled-Components <Progress percent={80} showInfo={false} /></li>
-                      <li>Sass <Progress percent={50} showInfo={false} /></li>
+                      {/* <li>Sass <Progress percent={50} showInfo={false} /></li> */}
                   </ul>
                   </InfoCard>
                   
@@ -45,14 +44,14 @@ const MainPanel: React.FC = () => {
                       <li>Mongoose <Progress percent={80} showInfo={false} /></li>
                       <li>Sequelize <Progress percent={50} showInfo={false} /></li>
                       <li>TypeOrm <Progress percent={60} showInfo={false} /></li>
-                      <li>AdonisJS <Progress percent={50} showInfo={false} /></li>
-                      <li>RabbitMQ <Progress percent={50} showInfo={false} /></li>
+                      {/* <li>AdonisJS <Progress percent={50} showInfo={false} /></li> */}
+                      {/* <li>RabbitMQ <Progress percent={50} showInfo={false} /></li> */}
                       <li>Java Spring <Progress percent={60} showInfo={false} /></li>
-                      <li>Mysql <Progress percent={75} showInfo={false} /></li>
+                      <li>Mysql <Progress percent={80} showInfo={false} /></li>
                       <li>Postgres <Progress percent={80} showInfo={false} /></li>
                       <li>MongoDB <Progress percent={80} showInfo={false} /></li>
-                      <li>Redis <Progress percent={60} showInfo={false} /></li>
-                      <li>Acess <Progress percent={75} showInfo={false} /></li>
+                      {/* <li>Redis <Progress percent={60} showInfo={false} /></li> */}
+                      {/* <li>Acess <Progress percent={75} showInfo={false} /></li> */}
                   </ul>
      
                   </InfoCard>
