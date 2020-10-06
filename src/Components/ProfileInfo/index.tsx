@@ -1,6 +1,7 @@
 import React from 'react';
 
 // import { Container } from './styles';
+
 import {
     EmailIcon,
     PersonInfo,
@@ -19,7 +20,8 @@ const ProfileInfo: React.FC = () => {
       <Container>
 
       
-    <div style={{backgroundImage: "url("+"https://s2.glbimg.com/4Ek8CnZSuYyyvaNQEPPiX_d-faA=/e.glbimg.com/og/ed/f/original/2017/11/24/gali1.jpg"+")"}} className="prof-photo"></div>
+    <div style={{backgroundImage: "url("+"https://i.imgur.com/nR1Hbpk.jpg"+")"}} className="prof-photo"></div>
+  
     <section className="infos">
 
 
