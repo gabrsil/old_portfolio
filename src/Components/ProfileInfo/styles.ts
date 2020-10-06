@@ -56,6 +56,7 @@ div.prof-photo {
     /* margin: 10px; */
     border-radius: 8px;
     background-size: cover;
+    background-position: center;
 }
 
 

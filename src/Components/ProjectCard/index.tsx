@@ -2,7 +2,6 @@ import React from 'react';
 
 import { Container, Info, TagArea, TecTag } from './styles';
 import InfoCard from '../InfoCard'
-import { Link, Redirect } from 'react-router-dom'
 
 interface IProject {
     title: String, 
@@ -40,14 +39,14 @@ const ProjectCard: React.FC<IInfoCardProps> = ({project}) => {
             <Info>
             <TagArea>
             {project.tags.map((tag) => (
-                <TecTag color={colorList.find((color) => color.name == tag)?.numb} font={colorList.find((color) => color.name == tag)?.font}>#{tag}</TecTag>
+                <TecTag color={colorList.find((color) => color.name === tag)?.numb} font={colorList.find((color) => color.name === tag)?.font}>#{tag}</TecTag>
             ))}
 
             </TagArea>
             <h3 className="project-title">{project.title}</h3>
             <p className="project-description">{project.description}</p>
 
-            <a target="_blank" href={project.code}>
+            <a rel="noopener noreferrer" href={project.code}>
                 <button className="code-btn">Código</button>
             </a>
             
