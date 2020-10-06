@@ -8,7 +8,7 @@ export const Container = styled.div`
   div {
    
     display: flex;
-   
+    padding: 10px 0;
     width: 280px;
     margin: 0 auto;
     justify-content: center;
